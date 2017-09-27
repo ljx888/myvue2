@@ -1,0 +1,56 @@
+.top_contant{width:100%;position:relative;padding-top:.8rem;padding-bottom:.8rem;overflow:hidden;background-size:100% 100%;color:#ffffff;}
+.top_title{position:fixed;top:0;width:100%;height:1rem;background-color:rgba(177,180,181,0.3);line-height:1rem;text-align:center;z-index:100;}
+.title_black img{position:absolute;top:-.20rem;left:0;width:1.4rem;}
+.title_share img{position:absolute;top:-.1rem;right:.8rem;width:1.2rem;}
+.title_set img{position:absolute;top:-.1rem;right:0;width:1.2rem;}
+.contant_info{background-color:rgba(255,255,255,0.88);width:90%;margin:0 auto;overflow:hidden;border-radius:.1rem;padding-bottom:.06rem;}
+.info_left{float: left;width: 75%;padding-top: .56rem;overflow: hidden;padding-left: 2%;}
+.dpmc{width:96%;height:.44rem;margin:0 auto;}
+.dpmc span{	font-size:.32rem;color:#333333;float:left;font-family:"微软雅黑";}
+.dpms{width:96%;line-height: .32rem;overflow:hidden;color:#8a8c7e;font-size:.20rem;margin:.15rem auto;word-break: break-all;}
+.dpbq{width:96%;height:.44rem;margin:0 auto;font-size: .2rem}
+.dpbq img{width:1rem;height:auto;padding-right:.06rem;}
+.fbh .fbh_num{float:left;margin:0.06rem 0 0 -.36rem;font-size: 0.24rem}
+.fbh .fbh_num img{width:.20rem;margin-left:.06rem;}
+.fbh_leve{float:left;display:block;width:.90rem;height:.42rem;font-weight:400;line-height:.42rem;padding-left:.36rem;color:#fff;font-size: .20rem;background:no-repeat center left url('../images/member_bg02.png');margin-left:.12rem;background-size:.80rem .32rem;}
+.info_right{float:left;width:22%;padding-top: .22rem;font-size: .0rem;color: #999999;}
+.sc_bt{height: 84%;width:84%;border:.02rem solid #ff6662;border-radius:.1rem;line-height: .48rem;text-align: center;font-size: .24rem;color: #ff6662;}
+.sc_bt img{width:.24rem;margin-right:.1rem;}
+.img_line{width:88%;margin-left:-.1rem;height: .02rem;display:block;}
+.fensi{height:.5rem;line-height:.5rem;padding-left:.12rem;    font-size: .2rem;}
+.daimai{height:.5rem;line-height:.5rem;padding-left:.12rem;    font-size: .2rem;}
+.shangping{height:.5rem;line-height:.5rem;padding-left:.12rem;    font-size: .2rem;}
+.dp_img{width: 1.2rem;height: 1.2rem;background-color: rgba(255,255,255,0.68);border-radius: 50%;position: absolute;left:.8rem;top:.20rem;z-index:8;}
+.dp_img img{width: 100%;height: 100%;border-radius: 50%;border:.04rem solid #fff;}
+.new_income{font-size:.20rem;width:100%;text-align:center;line-height:.7rem;background:url() no-repeat 95% center;background-size:.36rem .36rem;}
+.new_income_p{color:#ff6661;font-size:.52rem;font-weight:600;border-bottom:.02rem solid #f2f2f2;line-height:.8rem;margin-top:-4%;}
+.acc_income{line-height:.80rem;width:100%;font-size:.28rem;color:#666;}
+.acc_incomeleft{width:45%;float:left;padding-left:.3rem;}
+.acc_incomeright{width:35%;float:right;padding-right:.40rem;text-align:left;}
+.add_product{width:100%;padding:.1rem .20rem;background-color:#f2f2f2;clear:both;overflow:hidden;line-height:.9rem;}
+.add_product img{width:.6rem;float:left;margin:.1rem 5% 0 5%; }
+.pro_product{float:left;width:45%;background-color:#ffffff;border-radius:.1rem;height:1.1rem;line-height:1.1rem;margin:1% 2% 1%  0;}
+.dis_product{float:left;width:45%;background-color:#ffffff;border-radius:.1rem;height:1.1rem;line-height:1.1rem;margin:1% 0 1%  2%;}
+.pro_product img{margin-top:6%;padding-left:6.5%;}
+.dis_product img{margin-top:6%;padding-left:6.5%;}
+.menu_ul{width:100%;overflow:hidden;padding-bottom:1rem;}
+.menu_ul li{width:33%;float:left;}
+.menu_ul a{position:relative;display:block;text-decoration:none;}
+.menu_ul .menu_ul_img{position:relative;background:#fff;padding:20% 0 0;width:30%;margin:0 auto;}
+.menu_ul .menu_ul_img img{width:100%;}
+.menu_ul .menu_ul_img .orderBadge{
+	position:absolute; 
+	top:20rem;
+	right:-.20rem;
+	display:inline-block;
+	width:.40rem;
+	height:.40rem;
+	border-radius:.20rem;
+	color:#fff;
+	background:#ff6662;
+	text-align: center;
+	font-size:.24rem;
+	font-weight: normal;
+	display:none;
+}
+.menu_ul_text{line-height:.46rem;height:.46rem;padding:.08rem 0;font-size:.24rem;color:#696969;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
