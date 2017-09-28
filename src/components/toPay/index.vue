@@ -13,7 +13,7 @@
 				</div>
 				<div class="count">
 					<span>金额（元）</span>
-					<p>￥</p>
+					<p>￥{{amount}}</p>
 				</div>
 				<p class="tip">请向收银员询问应付金额，并核对收款商户。</p>
 			</div>
@@ -54,7 +54,7 @@
 		name:"toPay",
 		data(){
 			return{
-
+				amount:''
 			}
 		}
 	}
