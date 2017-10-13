@@ -153,7 +153,7 @@
 	}
 	.time{
 		position: absolute;
-		bottom: .2rem;
+		bottom: .1rem;
 	}
 	.time img{
 		width: .32rem;

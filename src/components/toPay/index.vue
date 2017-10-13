@@ -23,26 +23,26 @@
 		<div class="table-box">
 			<table>
  				<tr>
- 					<td>1</td>
- 					<td>2</td>
- 					<td>3</td>
- 					<td rowspan="2" class="arrow-back"></td>
+ 					<td @click="inputAmt">1</td>
+ 					<td @click="inputAmt">2</td>
+ 					<td @click="inputAmt">3</td>
+ 					<td @click="inputAmt" rowspan="2" class="arrow-back"></td>
  				</tr>
  				<tr>
- 					<td>4</td>
- 					<td>5</td>
- 					<td>6</td>
+ 					<td @click="inputAmt">4</td>
+ 					<td @click="inputAmt">5</td>
+ 					<td @click="inputAmt">6</td>
  				</tr>
  				<tr>
- 					<td>7</td>
- 					<td>8</td>
- 					<td>9</td>
+ 					<td @click="inputAmt">7</td>
+ 					<td @click="inputAmt">8</td>
+ 					<td @click="inputAmt">9</td>
  					<td rowspan="2" class="table-box-btn"><p>确定支付</p></td>
  				</tr>
  				<tr>
- 					<td>.</td>
- 					<td>0</td>
- 					<td>00</td>
+ 					<td @click="inputAmt">.</td>
+ 					<td @click="inputAmt">0</td>
+ 					<td @click="inputAmt">00</td>
  				</tr>
  			</table>
 		</div>
@@ -55,6 +55,18 @@
 		data(){
 			return{
 				amount:''
+			}
+		},
+		methods:{
+			inputAmt:function(event){
+				if(event.target.textContent == ''){
+					this.amount = this.amount.slice(0,-1);
+				}
+				if(!/^([1-9][\d]{0,7}|0?)([.\d]{1,2})?$/.test(this.amount) && this.amount != ''){
+					return;
+				}
+				this.amount = this.amount + event.target.textContent;
+				console.log(this.amount);
 			}
 		}
 	}
