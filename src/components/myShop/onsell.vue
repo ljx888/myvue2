@@ -207,6 +207,7 @@
 	flex:1;
 	padding: .1rem;
 	position: relative;
+	height: 2.3rem;
 }
 .item_list .tit{
 		color: #333;
@@ -222,7 +223,8 @@
 }
 .item_list .price{
 	font-size: .26rem;
-	margin-top: .2rem;
+	position: absolute;
+	bottom: 1rem;
 }
 .item_list .num{
 	font-size: .24rem;
@@ -241,6 +243,8 @@
 }
 .item_list .stock{
 	margin-right: 4px;
+	display: inline-block;
+  padding-top: .2rem;
 }
 .item_list .edit{
 	  display: inline-block;

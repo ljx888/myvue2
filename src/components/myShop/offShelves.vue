@@ -205,6 +205,7 @@
 	flex:1;
 	padding: .1rem;
 	position: relative;
+	height: 2.3rem;
 }
 .item .tit{
 		color: #333;
@@ -220,13 +221,14 @@
 }
 .item .price{
 	font-size: .26rem;
-	margin-top: .2rem;
+	position: absolute;
+	bottom: 1rem;
 }
 .item .num{
 	font-size: .24rem;
 	color: #999;
 	position: absolute;
-	bottom: .2rem;
+	bottom: .1rem;
 	width: 96%;
 }
 .item .commission{
@@ -239,6 +241,8 @@
 }
 .item .stock{
 	margin-right: 4px;
+	display: inline-block;
+  padding-top: .2rem;
 }
 .item .edit{
 	  display: inline-block;

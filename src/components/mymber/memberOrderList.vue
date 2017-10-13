@@ -123,6 +123,7 @@
 		color: #666;
 		flex:1;
 		overflow: hidden;
+		height: 2.3rem;
 	}
 	.tit{
 		font-size: .28rem;
@@ -153,7 +154,7 @@
 	}
 	.time{
 		position: absolute;
-		bottom: .1rem;
+		bottom: .2rem;
 	}
 	.time img{
 		width: .32rem;
