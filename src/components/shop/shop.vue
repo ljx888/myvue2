@@ -46,8 +46,8 @@
 		<router-view></router-view>
 		<ul class="footer">
 			<li v-on:click="toPay" class="toPay"><img src="./images/shop_maidan.png" alt="">我要买单</li>
-			<li><img src="./images/bot_jiameng.png" alt=""><br>加盟我</li>
-			<li class="shopCar"><img src="./images/bot_shoppingcar.png" alt=""><br>购物车</li>
+			<li  v-on:click="toJoin"><img src="./images/bot_jiameng.png" alt=""><br>加盟我</li>
+			<li v-on:click="toShopCar" class="shopCar"><img src="./images/bot_shoppingcar.png" alt=""><br>购物车</li>
 			<li><img src="./images/icon_wode.png" alt=""><br>我的</li>
 		</ul>
 		<div class="classList" v-show="showClass">
@@ -123,6 +123,12 @@
 			},
 			toPay:function(){
 				this.$router.push("/toPay");
+			},
+			toJoin:function(){
+				this.$router.push("/join");
+			},
+			toShopCar:function(){
+				this.$router.push("/shopCar");
 			}
 		}
 	}

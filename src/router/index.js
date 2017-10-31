@@ -31,7 +31,9 @@ import shopIndex from '@/components/shop/shopIndex'
 import selfproduct from '@/components/shop/selfproduct'
 import goodsclassification from '@/components/shop/goodsclassification'
 import shopData from '@/components/shop/shopData'
+import join from '@/components/shop/join'
 import toPay from '@/components/toPay/index'
+import shopCar from '@/components/shopCar/shopCar'
 
 
 Vue.use(Router)
@@ -201,6 +203,11 @@ export default new Router({
       ]
     },
     {
+      path:'/join',
+      name:'join',
+      component:join
+    },
+    {
       path:'/goodsclassification',
       name:'goodsclassification',
       component:goodsclassification
@@ -209,6 +216,11 @@ export default new Router({
       path:'/toPay',
       name:'toPay',
       component:toPay
+    },
+    {
+      path:'/shopCar',
+      name:'shopCar',
+      component:shopCar
     }
     
   ]
