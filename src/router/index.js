@@ -34,6 +34,7 @@ import shopData from '@/components/shop/shopData'
 import join from '@/components/shop/join'
 import toPay from '@/components/toPay/index'
 import shopCar from '@/components/shopCar/shopCar'
+import order from '@/components/shopCar/order'
 
 
 Vue.use(Router)
@@ -221,6 +222,11 @@ export default new Router({
       path:'/shopCar',
       name:'shopCar',
       component:shopCar
+    },
+    {
+      path:'/order',
+      name:'order',
+      component:order
     }
     
   ]

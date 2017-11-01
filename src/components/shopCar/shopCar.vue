@@ -40,7 +40,7 @@
 					<br>
 					不含运费
 				</p>
-				<span>立即结算</span>
+				<span @click="toOrder">立即结算</span>
 			</div>
 		</div>
 	</div>
@@ -128,6 +128,9 @@ import icon_unchoose from "./images/iocn_circle.png"
 					}
 				}
 				flag2 == true ? this.allCkecked = true : this.allCkecked = false;
+			},
+			toOrder:function(){
+				this.$router.push("/order");
 			}
 
 		}
@@ -254,6 +257,7 @@ import icon_unchoose from "./images/iocn_circle.png"
 		background-color: #fff;
 		position: fixed;
 		bottom: 0;
+		z-index: 2;
 	}
 	.footer .left{
 		font-size: .28rem;
@@ -286,8 +290,5 @@ import icon_unchoose from "./images/iocn_circle.png"
 		font-size: .36rem;
 		color: #fff;
 		background-color: #ff6662;
-	}
-	.displayNone{
-		display: none;
 	}
 </style>
